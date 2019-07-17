@@ -15,9 +15,13 @@
 
 ## 第二章 分布式基础设施
 
-* 网关
+* 网关/反向代理
 * 磁盘阵列
 * Docker/k8s
+* RPC
+* RESTful
+* WebService
+* SOAP/WSDL/UDDI
 
 ## 第三章 SOA（面向服务的架构）
 
