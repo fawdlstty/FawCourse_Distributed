@@ -2,50 +2,40 @@
 
 .NET 分布式入门教程
 
-## 第零章 序言
+## [第零章 序言](docs/00_startup.md)
 
 * 引言
 * 目标读者
 
-## 第一章 分布式基础介绍
+## [第一章 分布式基础架构](docs/01_introduce.md)
 
 * 什么是分布式
-* 为什么需要分布式
-* 分布式与大数据/云计算的关系
+    + 应对IO性能瓶颈
+    + 应对承载并发量
+    + 应对代码量过大导致代码杂乱
+    + 管理访问权限
+* 主流实现方式
+    + 面向服务架构 (Service Oriented Architecture, SOA)
+    + Actor 模型
+    + 服务网格 (Service Mesh)（可实现微服务）
+    + CSP 模型（可实现微服务）
+    + 注册中心模式（可实现微服务）
+* 主流实现方式的区别
+    + 对外服务
+    + 如何将新服务加入集群
+    + 如何获知服务地址及调用服务
+    + 如何获知服务掉线
 
-## 第二章 分布式基础设施
+## [第二章 通信协议](docs/02_protocol.md)（计划中）
 
-* 网关/反向代理
-* 磁盘阵列
-* Docker/k8s
-* RPC
-* RESTful
-* WebService
-* SOAP/WSDL/UDDI
+## 第三章 软件安全性（计划中）
 
-## 第三章 SOA（面向服务的架构）
+## 第六章 DevOps（计划中）
 
-* 什么是SOA
-* SOA架构体系
-* SOA优势
-* SOA面临的挑战
-* 如何实现SOA编程
+## 开源协议
 
-## 第四章 Actor模型/CSP模型
+[![test](https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-* 什么是Actor
-* Actor架构体系
-* Actor与CSP异同
-* Actor优势
-* Actor面临的挑战
-* 如何实现Actor编程
+本教程采用[知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc-nd/4.0/)许可。
 
-## 第五章 Microservice（微服务）
-
-* 什么是微服务
-* 微服务架构体系
-* 微服务优势
-* 微服务面临的挑战
-* 如何实现微服务编程
-
-## 第六章 DevOps
+本教程所有示例代码采用 MIT 协议开源

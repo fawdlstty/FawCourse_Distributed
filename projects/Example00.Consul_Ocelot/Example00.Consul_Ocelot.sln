@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example00.Consul_Ocelot.Gateway", "Example00.Consul_Ocelot.Gateway\Example00.Consul_Ocelot.Gateway.csproj", "{E821AA30-45E6-48F7-9DCB-D90D47256C70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example00.Consul_Ocelot.Server", "Example00.Consul_Ocelot.Server\Example00.Consul_Ocelot.Server.csproj", "{D64FE2C5-7A96-4C0F-9FD9-7957713E00B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{705C4A8D-DEB2-47E0-A6A5-6B6AE9033DF8}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E821AA30-45E6-48F7-9DCB-D90D47256C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E821AA30-45E6-48F7-9DCB-D90D47256C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E821AA30-45E6-48F7-9DCB-D90D47256C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E821AA30-45E6-48F7-9DCB-D90D47256C70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D64FE2C5-7A96-4C0F-9FD9-7957713E00B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64FE2C5-7A96-4C0F-9FD9-7957713E00B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64FE2C5-7A96-4C0F-9FD9-7957713E00B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64FE2C5-7A96-4C0F-9FD9-7957713E00B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2116FAB-A171-4B78-A397-65A8B16B3BC8}
+	EndGlobalSection
+EndGlobal

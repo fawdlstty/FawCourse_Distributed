@@ -1,0 +1,53 @@
+{
+	"ReRoutes1": "2333",
+	"ReRoutes": [
+		{
+			"DownstreamPathTemplate": "/api/{url}",
+			"DownstreamScheme": "http",
+			"UpstreamPathTemplate": "/{url}",
+			"UpstreamHttpMethod": [ "Get" ],
+			"ServiceName": "test_service",
+			"LoadBalancer": "RoundRobin",
+			"UseServiceDiscovery": true,
+			"ReRouteIsCaseSensitive": false,
+			"LoadBalancerOptions": {
+				"Type": "RoundRobin"
+			}
+			//"FileCacheOptions": {
+			//	"TtlSeconds":  10
+			//},
+			//"QoSOptions": {
+			//	"ExceptionsAllowedBeforeBreaking": 3,
+			//	"DurationOfBreak": 10,
+			//	"TimeoutValue": 5000
+			//},
+			//"HttpHandlerOptions": {
+			//	"AllowAutoRedirect": false,
+			//	"UseCookieContainer": false,
+			//	"UseTracing": false
+			//},
+			//"AuthenticationOptions": {
+			//	"AuthenticationProviderKey": "",
+			//	"AllowedScopes": []
+			//},
+			//"RateLimitOptions": {
+			//	"ClientWhitelist": [ "admin" ],
+			//	"EnableRateLimiting": true,
+			//	"Period": "1m",
+			//	"PeriodTimespan": 15,
+			//	"Limit": 5
+			//}
+		}
+	],
+	"GlobalConfiguration": {
+		"ServiceDiscoveryProvider": {
+			"Host": "127.0.0.1",
+			"Port": 8500
+		}
+		//"RateLimitOptions": {
+		//	"ClientIdHeader": "test_service_",
+		//	"QuotaExceededMessage": "Too Many Requests!!!",
+		//	"DisableRateLimitHeaders": false
+		//}
+	}
+}
